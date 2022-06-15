@@ -31,6 +31,10 @@ The client is currently tested and verified to work with the following banks:
 * [Bank GPB AO](https://gazprombank.ru/)
 * [J.P. Morgan](https://www.jpmorgan.com/)
 
+## Run in docker
+```bash
+docker run -it --rm -v $(pwd):/app --entrypoint /bin/bash docker.io/library/node:18.3.0-bullseye
+```
 
 ## Inspiration
 
