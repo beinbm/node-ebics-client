@@ -21,3 +21,4 @@ npm-debug.log
 
 # Tests temporary
 .test_tmp
+.idea
