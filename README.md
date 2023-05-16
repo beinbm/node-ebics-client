@@ -30,16 +30,21 @@ The client is currently tested and verified to work with the following banks:
 * [Bank GPB International S.A.](https://gazprombank.lu/e-banking)
 * [Bank GPB AO](https://gazprombank.ru/)
 * [J.P. Morgan](https://www.jpmorgan.com/)
-
-## Run in docker
-```bash
-docker run -it --rm -v $(pwd):/app --entrypoint /bin/bash docker.io/library/node:18.3.0-bullseye
-```
+* [Deutsche Bank](https://www.deutsche-bank.de/)
+* [Bank Austria](https://www.bankaustria.at/)
+* [Volksbank eG](https://www.gestalterbank.de/)
 
 ## Inspiration
 
 The basic concept of this library was inspired by the [EPICS](https://github.com/railslove/epics) library from the Railslove Team.
 
+## Run locally in docker
+```bash
+docker run -it --rm -v $(pwd):/app --entrypoint /bin/bash docker.io/library/node:18.3.0-bullseye
+cd /app
+npm ci
+npm test
+```
 
 ## Copyright
 
