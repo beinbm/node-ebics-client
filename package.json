@@ -65,7 +65,7 @@
 		"node-forge": "^1.3.1",
 		"uuid": "^9.0.0",
 		"xml-crypto": "^2.1.4",
-		"xpath": "0.0.32"
+		"xpath": "0.0.33"
 	},
 	"devDependencies": {
 		"auto-changelog": "^2.4.0",
